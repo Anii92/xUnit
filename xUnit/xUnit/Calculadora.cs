@@ -17,6 +17,7 @@ namespace xUnit
 
         public int Multiplicacion(int num1, int num2)
         {
+            Console.Write("El resultado es " + num1 / num2);
             return num1 * num2;
             //throw new NotImplementedException();
         }
